@@ -34,5 +34,5 @@ services:
       - ./conf.d:/etc/nginx/conf.d
       - wp_files:/var/www/html
 
-volumes: 
-  wp_files: 
+volumes:
+  wp_files:
